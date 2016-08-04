@@ -24,11 +24,11 @@
         main();
     }
     function gameLoop() {
-        helloLabel.rotation += 5;
+        helloLabel.rotation -= 5;
         stage.update(); // refresh the stage container
     }
     function main() {
-        helloLabel = new objects.Label("Hello World!", "40px Consolas", "#000000", 160, 160, true);
+        helloLabel = new objects.Label("MD MAMUNUR RAHMAN", "40px Consolas", "#000000", 160, 160, true);
         stage.addChild(helloLabel);
     }
     // call init funciton when window finishes loading
